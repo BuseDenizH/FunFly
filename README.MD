@@ -16,5 +16,6 @@
 <li>designed in AdobeXD</li>
 </ol>
 <br>
-
-[<img src="https://i9.ytimg.com/vi/P8hIGuN93zQ/mq1.jpg?sqp=CIzf3pcG&rs=AOn4CLAVqDAhNShb0I0BIOn0_lcEOEj-hQ" width="50%">](https://www.youtube.com/watch?v=P8hIGuN93zQ "Now we publish it!")
+<img src="https://gcdnb.pbrd.co/images/50ayWQCZNH6U.png?o=1" width="50%">
+<br>
+<iframe width="420" height="315" src="https://www.youtube.com/watch?v=P8hIGuN93zQ "> </iframe>
