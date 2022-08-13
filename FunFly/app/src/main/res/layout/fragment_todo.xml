@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectangle_14" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.434"
+        app:srcCompat="@drawable/social_top" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toStartOf="@+id/imageView17"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.285"
+        app:srcCompat="@drawable/nopath" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.285"
+        app:srcCompat="@drawable/nopath___copy" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="80dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ticket"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="153dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="32dp"
+        android:text="Bilet Satın Alındı"
+        android:textAlignment="center"
+        android:textColor="#195B70"
+        android:textSize="19sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView32"
+        app:layout_constraintStart_toEndOf="@+id/imageView32"
+        app:layout_constraintTop_toTopOf="@+id/imageView32"
+        app:layout_constraintVertical_bias="0.452" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="153dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="32dp"
+        android:text="Check-in Yapildi"
+        android:textAlignment="center"
+        android:textColor="#195B70"
+        android:textSize="19sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView33"
+        app:layout_constraintStart_toEndOf="@+id/imageView33"
+        app:layout_constraintTop_toTopOf="@+id/imageView33"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="153dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="36dp"
+        android:text="Bagaj Verildi"
+        android:textAlignment="center"
+        android:textColor="#195B70"
+        android:textSize="19sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView34"
+        app:layout_constraintStart_toEndOf="@+id/imageView34"
+        app:layout_constraintTop_toTopOf="@+id/imageView34" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="153dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="36dp"
+        android:text="Uçağa Binilebilir"
+        android:textAlignment="center"
+        android:textColor="#195B70"
+        android:textSize="19sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView38"
+        app:layout_constraintStart_toEndOf="@+id/imageView38"
+        app:layout_constraintTop_toTopOf="@+id/imageView38"
+        app:layout_constraintVertical_bias="0.403" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="80dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/check_in"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView32" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="86dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/luggage_check_in"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView33" />
+
+    <ImageView
+        android:id="@+id/imageView38"
+        android:layout_width="87dp"
+        android:layout_height="84dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/take_off"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView34" />
+
+    <ImageView
+        android:id="@+id/imageView39"
+        android:layout_width="77dp"
+        android:layout_height="71dp"
+        android:layout_marginEnd="13dp"
+        android:src="@drawable/okey_icon"
+        app:layout_constraintBottom_toBottomOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView9" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="70dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/not_okey"
+        app:layout_constraintBottom_toBottomOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView10" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="70dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/not_okey"
+        app:layout_constraintBottom_toBottomOf="@+id/textView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView11" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="70dp"
+        android:layout_height="63dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/not_okey"
+        app:layout_constraintBottom_toBottomOf="@+id/textView12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="geriDon"
+        android:backgroundTint="#702451AC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

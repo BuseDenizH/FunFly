@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/forumFragment">
+    <fragment
+        android:id="@+id/forumFragment"
+        android:name="com.example.funfly.forumFragment"
+        android:label="forumFragment" >
+        <action
+            android:id="@+id/action_forumFragment_to_statusFragment"
+            app:destination="@id/statusFragment" />
+        <action
+            android:id="@+id/action_forumFragment_to_entertainmentFragment"
+            app:destination="@id/entertainmentFragment" />
+        <action
+            android:id="@+id/action_forumFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.funfly.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_statusFragment"
+            app:destination="@id/statusFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_entertainmentFragment"
+            app:destination="@id/entertainmentFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_forumFragment"
+            app:destination="@id/forumFragment" />
+        <argument
+            android:name="name"
+            app:argType="string"
+            android:defaultValue="defaultusername" />
+        <argument
+            android:name="matchpoint"
+            app:argType="integer"
+            android:defaultValue="-1" />
+    </fragment>
+    <fragment
+        android:id="@+id/statusFragment"
+        android:name="com.example.funfly.statusFragment"
+        android:label="fragment_status"
+        tools:layout="@layout/fragment_status" >
+        <action
+            android:id="@+id/action_statusFragment_to_entertainmentFragment"
+            app:destination="@id/entertainmentFragment" />
+        <action
+            android:id="@+id/action_statusFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_statusFragment_to_forumFragment"
+            app:destination="@id/forumFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/entertainmentFragment"
+        android:name="com.example.funfly.entertainmentFragment"
+        android:label="fragment_entertainment2"
+        tools:layout="@layout/fragment_entertainment2" >
+        <action
+            android:id="@+id/action_entertainmentFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_entertainmentFragment_to_statusFragment"
+            app:destination="@id/statusFragment" />
+        <action
+            android:id="@+id/action_entertainmentFragment_to_forumFragment"
+            app:destination="@id/forumFragment" />
+        <action
+            android:id="@+id/action_entertainmentFragment_to_questionFragment"
+            app:destination="@id/questionFragment" />
+        <action
+            android:id="@+id/action_entertainmentFragment_to_todoFragment"
+            app:destination="@id/todoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/questionFragment"
+        android:name="com.example.funfly.questionFragment"
+        android:label="questionFragment" >
+        <action
+            android:id="@+id/action_questionFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_questionFragment_to_forumFragment"
+            app:destination="@id/forumFragment" />
+        <action
+            android:id="@+id/action_questionFragment_to_statusFragment"
+            app:destination="@id/statusFragment" />
+        <action
+            android:id="@+id/action_questionFragment_to_entertainmentFragment"
+            app:destination="@id/entertainmentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/todoFragment"
+        android:name="com.example.funfly.todoFragment"
+        android:label="fragment_todo"
+        tools:layout="@layout/fragment_todo" >
+        <action
+            android:id="@+id/action_todoFragment_to_entertainmentFragment"
+            app:destination="@id/entertainmentFragment" />
+    </fragment>
+</navigation>
