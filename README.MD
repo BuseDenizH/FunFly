@@ -6,7 +6,7 @@
 <ol>
 <li>@Mens1s Android Developer</li>
 <li>@abdunaber Project Designer </li>
-<li>_@_Buse Deniz Hanaylı Project Designer</li>
+<li>@BuseDenizH Project Designer</li>
 </ol>
  
 <h2>Project</h2>
